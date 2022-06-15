@@ -1,0 +1,23 @@
+.nav{
+    //display: flex;
+    //justify-content: space-between;
+    &__menu{
+        display: flex;
+        //justify-content: space-between;
+    }
+    &__item{
+        &_one{
+            @include px(0 ,39px);
+        }
+    }
+    &__link{
+        @include fs-lh(14px,25px);
+        font-weight: 400;
+        color: $color__purplrminlight;
+        @include px(0 ,40px);
+        &_five{
+            @include px(0 ,0);
+        }
+        
+    }
+}

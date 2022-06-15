@@ -1,0 +1,26 @@
+.header{
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        display: flex;
+        align-items: center;
+        @include px(0 ,39px);
+    }
+    &__langues{
+        display: flex;
+        align-items: center;
+        color: $color__purplelight;
+        @include fs-lh(14px,21px);
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        @include px(0 ,20px);
+    }
+    &__social{
+        display: flex;
+        align-items: center;
+    }
+}
